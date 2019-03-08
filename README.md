@@ -19,6 +19,10 @@ Each module of the Java RI is contained within its own repository.  You can eith
 
 `curl -s https://api.github.com/orgs/DirectProjectJavaRI/repos?per_page=200 | jq .[].git_url | xargs -n 1 git clone`
 
+If you want to build from the developement branch, specify that branch using the following command:
+
+`curl -s https://api.github.com/orgs/DirectProjectJavaRI/repos?per_page=200 | jq .[].git_url | xargs -n 1 git clone -b develop`
+
 ## Build Components
 All project using maven pom.xml files for the build lifecyle.  After cloning all repositories, switch to the `direct-ri-build` directory and run the following command to build all components.
 
