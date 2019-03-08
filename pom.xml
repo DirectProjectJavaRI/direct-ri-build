@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd ">
+    <modelVersion>4.0.0</modelVersion>
+ 
+    <groupId>org.nhind</groupId>
+    <artifactId>DirectProjectJavaRI</artifactId>
+    <version>6.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+ 
+    <name>DirectProjectJavaRI Build</name>
+    <url>https://github.com/DirectProjectJavaRI</url>
+ 
+     <properties>
+     	<artifact.version>6.0-SNAPSHOT</artifact.version>
+     </properties>
+     
+	<modules>
+		<module>../direct-common</module>
+		<module>../direct-policy</module>
+		<module>../direct-common-audit</module>
+		<module>../config-model</module>
+		<module>../config-store</module>
+		<module>../config-service-jar</module>
+    <module>../config-service</module>
+		<module>../config-service-war</module>
+		<module>../config-service-client</module>
+		<module>../config-ui</module>
+		<module>../direct-msg-monitor-model</module>
+		<module>../direct-msg-monitor</module>
+		<module>../direct-msg-monitor-client</module>
+		<module>../direct-msg-monitor-sboot</module>
+		<module>../direct-msg-monitor-web</module>
+		<module>../dns</module>
+		<module>../agent</module>
+		<module>../xd-common</module>
+		<module>../gateway</module>
+		<module>../xdmail</module>
+		<module>../xd</module>
+    <module>../dns-sboot</module>
+    <module>../config-manager</module>
+		<module>../direct-project-stock</module>
+		<module>../direct-smtp-mq-gateway</module>
+		<module>../direct-sta-sboot</module>
+	</modules>
+         
+</project>
