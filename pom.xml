@@ -21,26 +21,26 @@
 		<module>../config-model</module>
 		<module>../config-store</module>
 		<module>../config-service-jar</module>
-    <module>../config-service</module>
-		<module>../config-service-war</module>
+		<module>../config-service</module>
 		<module>../config-service-client</module>
 		<module>../config-ui</module>
 		<module>../direct-msg-monitor-model</module>
 		<module>../direct-msg-monitor</module>
 		<module>../direct-msg-monitor-client</module>
 		<module>../direct-msg-monitor-sboot</module>
-		<module>../direct-msg-monitor-web</module>
 		<module>../dns</module>
 		<module>../agent</module>
 		<module>../xd-common</module>
 		<module>../gateway</module>
 		<module>../xdmail</module>
 		<module>../xd</module>
-    <module>../dns-sboot</module>
-    <module>../config-manager</module>
-		<module>../direct-project-stock</module>
+		<module>../dns-sboot</module>
+		<module>../config-manager</module>
 		<module>../direct-smtp-mq-gateway</module>
 		<module>../direct-sta-sboot</module>
+		<module>../direct-javax-compat</module>
+		<module>../direct-james-server</module>
+		<module>../direct-project-tools</module>
 	</modules>
          
 </project>
