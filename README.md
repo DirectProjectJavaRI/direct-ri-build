@@ -7,7 +7,7 @@ The following tools are needed to perform the full build
 
 * Maven
 * Git
-* JDK 8
+* JDK 17 or later (the components compile with Java 17 as the minimum; builds are verified with JDK 21 — Lombok annotation processing currently fails on JDK 25)
 * Ant
 * Unzip
 * Tar
