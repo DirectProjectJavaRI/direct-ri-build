@@ -31,6 +31,7 @@
 		<module>../dns</module>
 		<module>../agent</module>
 		<module>../xd-common</module>
+		<module>../direct-gateway-common</module>
 		<module>../gateway</module>
 		<module>../xdmail</module>
 		<module>../xd</module>
@@ -38,7 +39,6 @@
 		<module>../config-manager</module>
 		<module>../direct-smtp-mq-gateway</module>
 		<module>../direct-sta-sboot</module>
-		<module>../direct-javax-compat</module>
 		<module>../direct-james-server</module>
 		<module>../direct-project-tools</module>
 	</modules>
